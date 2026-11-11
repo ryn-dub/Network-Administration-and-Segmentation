@@ -51,9 +51,14 @@ The goal was to partition an existing network allocation into three independent,
 *   **Increment / Block Size:** 16.
 
 ---
-
 ## 🗺️ Sequential IP Pool Timeline
 This visual timeline tracks the sequential allocation of your network blocks across the base `192.168.10.0/24` range, mapping the precise boundaries and highlighting the remaining unallocated pool preserved for future enterprise expansion:
+
+```text
+[ Subnet A: Ops ] [ Subnet B ] [ Subnet C ] [----------- Unallocated Future Expansion Pool -----------]
+.0            .63 .64      .95 .96     .111 .112                                                .255
+```
+
 
 
 
